@@ -1,0 +1,4 @@
+#configfile config.yaml
+tonotopy_data: /home/milan/Documents/school/projects/tonotopy_pipeline/Tonotopy/
+affine: averaged_spmf/affine.npy
+averaged_spmf: averaged_spmf/averaged_spmf.img
