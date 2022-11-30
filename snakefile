@@ -16,7 +16,6 @@ betas = list(dict.fromkeys(betas))
 
 rule all:
     input:
-        # "average_map/averaged_map.nii"
         "plots/tonotopic_map.png"
 
 
@@ -79,10 +78,8 @@ rule average_map:
     input:
         tonotopic_maps = expand("svd/{sample}.nii", sample=SAMPLES),
         affine = "averaged_spmf/affine.npy"
-
     output:
         "average_map/averaged_map.nii"
-
     run:
         averaged_map = create_average_map(input.tonotopic_maps)
         affine = np.load(input.affine)

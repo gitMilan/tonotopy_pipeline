@@ -1,6 +1,6 @@
 #configfile config.yaml
-tonotopy_data: /home/milan/Documents/school/projects/tonotopy_pipeline/Tonotopy/
+tonotopy_data: Tonotopy/
 affine: averaged_spmf/affine.npy
 averaged_spmf: averaged_spmf/averaged_spmf.img
 svd_output: svd/
-min_filter_value: 1.5
+min_filter_value: 2.0
