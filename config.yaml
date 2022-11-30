@@ -2,3 +2,5 @@
 tonotopy_data: /home/milan/Documents/school/projects/tonotopy_pipeline/Tonotopy/
 affine: averaged_spmf/affine.npy
 averaged_spmf: averaged_spmf/averaged_spmf.img
+svd_output: svd/
+min_filter_value: 1.5

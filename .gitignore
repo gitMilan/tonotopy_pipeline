@@ -3,6 +3,16 @@ averaged_spmf
 venv/
 TODO.txt
 
+#Data folders
+.snakemake/
+
+Tonotopy/
+plots/
+filtered_betas/
+average_map/
+svd/
+venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
